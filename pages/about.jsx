@@ -2,8 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import PageLayout from '../components/PageSec/PageLayout'
 
-
-export default function Home() {
+const about = () => {
   return (
     <div>
       <Head>
@@ -13,10 +12,12 @@ export default function Home() {
       </Head>
       
       <PageLayout>
-        <h1>Hello</h1>
+        <h1>About</h1>
       </PageLayout>
 
       
     </div>
   )
 }
+
+export default about
